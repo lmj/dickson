@@ -1,0 +1,15 @@
+This is a C++ implementation of "Dickson double algebras".
+
+Definitions are taken from "On Quaternions and Octonions" by John
+H. Conway and Derek A. Smith.
+
+test/laws.cxx verifies various quaternion identities, octonion
+identities, and general Dickson identities, as well as their
+classifications.  These identities are taken partly from Conway's
+book.
+
+Note that for very large algebras you may need to define
+DICKSON_USE_HEAP to avoid blowing the stack.
+
+Author: James M. Lawrence <llmjjmll@gmail.com>
+
