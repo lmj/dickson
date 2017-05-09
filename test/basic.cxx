@@ -40,6 +40,7 @@
 #include <limits>
 #include <cstdlib>
 #include <cmath>
+#include <ctime>
 
 typedef long double real ;
 

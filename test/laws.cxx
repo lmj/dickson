@@ -46,6 +46,7 @@
 #include <iostream>
 #include <limits>
 #include <cstdlib>
+#include <ctime>
 
 void section( const char* title ) ;
 
